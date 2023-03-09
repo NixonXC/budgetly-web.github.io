@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgetly | Expense Tracking and Budget Savings</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="twitter:image" content="https://i.imgur.com/wtsetZh.png">
+    <link rel="shortcut icon" href="assets/clv.png">
+    <meta name="description" content="Manage your Money, Purchases, Savings in one place!">
+    <meta name="theme-color" content="#0069FF">
+</head>
+<body>
+    <nav>
+        <div id="container" class="container">
+          <img src="assets/BUDGETLY-removebg-preview.png" width="50px" class="logo">
+          <img id="menu" src="assets/menu.svg" class="menu-logo" onclick="togglemenu()">
+          <ul id="ul">
+            <li><a href="https://nixonxc.github.io/Budgetly">HOME</a></li>
+            <li><a href="pages/todo.html">ToDo List</a></li>
+            <li><a href="pages/logs.html">PURCHASES</a></li>
+            <li id="hide1"><a>|</a></li>
+            <li id="hide2"><a id="user" href="">Guest User</a></li>
+            <img id="hide3" src="assets/clv.png" width="40px" class="icon">
+          </ul> 
+        </div>
+        <ul id="menu-ul">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">SAVINGS</a></li>
+          <li><a href="pages/logs.html">PURCHASES</a></li>
+        </ul>
+      </nav>
+    <div class="header">
+        <h1 id="title">Budgetly - Expense made easy!</h1>
+        <p>Manage your Money, Purchases, and Savings in one place!</p>
+        <button id="start">GET STARTED</button>
+    </div>
+
+    <div class="footer">
+        <div class="fe">
+            <h1>FEATURES</h1>
+        </div>
+        <div class="row">
+            <div class="we1">
+                <h3>📃 Purchase Logs</h3>
+                <p>You can create and log your Purchase Hostory with the help of Budgetly for absolutely FREE!</p>
+            </div>
+            <div class="we1">
+                <h3>🦺 Expenditure and Savings</h3>
+                <p>View your total savings, View/Calculate your Monthly Expenditure, and Calculate your savings.</p>
+            </div>
+            
+            <div class="we1">
+                <h3>🤑 Optimize Sales</h3>
+                <p>Calculate discounts, double check deals and more.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

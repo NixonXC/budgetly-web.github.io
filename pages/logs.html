@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase History</title>
+    <link rel="stylesheet" href="logs.css">
+    <meta name="twitter:image" content="https://i.imgur.com/wtsetZh.png">
+    <link rel="shortcut icon" href="assets/clv.png">
+    <meta name="description" content="Purchase History.">
+    <meta name="theme-color" content="#0069FF">
+</head>
+<body>
+    <nav>
+        <div id="container" class="container">
+          <img src="assets/BUDGETLY-removebg-preview.png" width="50px" class="logo">
+          <img id="menu" src="assets/menu.svg" class="menu-logo">
+          <ul id="ul">
+            <li><a href="https://nixonxc.github.io/Budgetly">HOME</a></li>
+            <li><a href="todo.html">ToDo List</a></li>
+            <li><a href="logs.html">PURCHASES</a></li>
+            <li id="hide1"><a>|</a></li>
+            <li id="hide2"><a id="user" href="#">Guest User</a></li>
+            <img id="hide3" src="assets/clv.png" width="40px" class="icon">
+          </ul> 
+        </div>
+        <ul id="menu-ul" style="display: none;">
+          <li><a href="https://nixonxc.github.io/Budgetly">HOME</a></li>
+          <li><a href="#">SAVINGS</a></li>
+          <li><a href="logs.html">PURCHASES</a></li>
+        </ul>
+      </nav>
+    <div class="header">
+        <h1 id="title">Purchase History</h1>
+        <img id="purchase" src="assets/new.svg">
+        <img id="del" src="assets/delete.svg">
+    </div>
+    <div class="new" id="new">
+        <h3>Money Spent On: </h3>
+        <input id="spent" type="text" placeholder="Ex - Food | Pizza">
+        <h3>Money Spent: </h3>
+        <input id="money" type="text" placeholder="Ex - 199">
+        <h3>Your Salary:</h3>
+        <input id="salary" type="text" placeholder="Ex - 30000">
+        <h3>Purchase Date:</h3>
+        <input id="date" type="text" placeholder="Ex - 4 March 2023">
+        <button id="confirm">Add</button>
+    </div>
+
+    <script src="logs.js"></script>
+</body>
+</html>

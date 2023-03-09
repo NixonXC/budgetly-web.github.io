@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+body {
+    background-color: rgb(248, 248, 244);
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+.main {
+    margin-top: -80px;
+    font-size: 100px;
+    text-align: center;
+}
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 200px !important;
+}
+#title {
+    color: rgb(22, 22, 22);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Tilt Warp', cursive;
+    letter-spacing: 2px; 
+}
+.header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+.header button {
+    padding: 14px;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    border: none;
+    font-weight: 900;
+    background-color: #4894FF;
+    cursor: pointer;
+    border-radius: 30px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    letter-spacing: 2px;
+    width: 160px;
+}
+.header button:hover {
+    background-color: #0069FF;
+}
+.row {
+    display: flex;
+    flex-direction: flex;
+}
+.we1 {
+    flex-direction: column;
+    width: 20%;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 244);
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 15px 32px;
+    font-size: 17px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(202, 202, 202);
+}
+.fe {
+    margin-top: 320px;
+    text-align: center;
+    font-family: 'Tilt Warp', cursive;;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+nav {
+    height: 70px;
+    background: rgb(255, 255, 244);
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right: -8px;
+}
+.container {
+    margin-top: -40px;
+    margin-left: 10%;
+    margin-right: 100px;
+    display: inline-flex;
+}
+.logo {
+    width: 150px;
+}
+nav ul {
+    margin-left: 540px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav li {
+    font-weight: 900;
+    font-size: 16px;
+    padding-left: 40px;
+}
+  
+nav a:hover {
+    transition: 0.4s;
+    color: #0069FF;
+}
+.icon {
+    border-radius: 50%;
+    border: 1px solid rgb(255, 230, 230);
+    cursor: pointer;
+    margin-left: 20px;
+}
+.menu-logo {
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+  
+#ul {
+    display: flex;
+}
+  
+#menu-ul {
+    display: none;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: rgb(255, 255, 244);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+}
+  
+#menu-ul li {
+    padding: 20px;
+    border-top: 1px solid rgb(0, 0, 0, 0.1);
+}
+  
+#menu {
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    #hide1 {
+        display: none;
+    }
+    #hide2 {
+        display: none;
+    }
+    #hide3 {
+        display: none;
+    }
+    nav ul {
+        display: none;
+    }
+    #menu {
+        display: block;
+        margin-left: 160px;
+        width: 60px !important;
+    }
+    #menu-ul {
+        display: none;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0px;
+    }
+    #ul {
+        display: none;
+    }
+    .container {
+        width: 10%;
+    }
+    .row {
+        display: table-row;
+        row-gap: 10px;
+    }
+    .we1 {
+        margin: auto;
+        width: 70%;
+        margin-left: 10%;
+        margin-right: auto;
+        border: 3px solid rgb(201, 212, 201);
+        padding: 10px;
+    }
+    .we1 {
+        margin-top: 50px;
+        width: 70%;
+        margin-left: 10%;
+        row-gap: 0px;
+        border-radius: 12px;
+        margin-right: auto;
+        border: 3px solid rgb(201, 212, 201);
+        padding: 10px;
+    }
+}
