@@ -10,6 +10,19 @@
     <link rel="shortcut icon" href="assets/clv.png">
     <meta name="description" content="Manage your Money, Purchases, Savings in one place!">
     <meta name="theme-color" content="#0069FF">
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+        OneSignal.init({
+          appId: "25bf71ef-27ea-4d00-bc00-b0c9ce2d4fa9",
+          safari_web_id: "web.onesignal.auto.48d9c6a2-4943-4221-b17b-a4e235bf1c7d",
+          notifyButton: {
+          enable: true,
+          },
+        });
+      });
+    </script>
 </head>
 <body>
     <nav>
